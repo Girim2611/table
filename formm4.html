@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #name{
+            background-color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Form</h1>
+    <p>Text Field containing Plaintext</p>
+    <input type="text" name="name" id="name">
+    <label for="name">Your Name</label><br>
+    <p>Multiple-Line Text Field</p>
+    <textarea name="text" id="text" cols="25" rows="5">Default contents go here.</textarea><br>
+checkbox 
+<input type="checkbox" name="check" id="check">Hungry<br>
+Text Field containing a Numeric Value 
+<input type="text" name="field" id="field">
+Blood Temperature (80.0-120.0)<br>
+<p>Single-SELECT</p>
+<select>
+    <option value="Red">Red</option>
+    <option value="Yellow">Yellow</option>
+</select>
+<p>Multiple-SELECT</p>
+<select multiple>
+    <option value="Pistachio">Pistachio</option>
+    <option value="Walnut">Walnut</option>
+    <option value="Creme">Creme</option>
+</select><br><p>
+Exclusive Radio Button Group: Age of Truck in Years 
+<input type="radio" name="group" id="1" >1
+<input type="radio" name="group" id="2" >2
+<input type="radio" name="group" id="3" selected>3
+<input type="radio" name="group" id="4" >4
+</p>
+<p>
+    Nonexclusive Checkbox Group: Voting for Zero through Four Candidates 
+    <input type="checkbox" name="box" id="box">A
+    <input type="checkbox" name="box" id="box">B
+    <input type="checkbox" name="box" id="box">C
+    <input type="checkbox" name="box" id="box">D
+    <br><br>
+    <input type="submit" value="SubmitRequest">
+    <input type="reset" value="ResetRequest">
+</p>
+</body>
+</html>
